@@ -1,7 +1,6 @@
 import React from "react";
-// import "./App.css";
 import Searchbar from "./components/Searchbar";
-import "./index.css"; // ✅ This imports Tailwind styles
+import "./index.css";
 
 function App() {
   return (
