@@ -51,7 +51,8 @@ function Searchbar() {
       return <p className="mt-4 text-gray-500">No products found.</p>;
     }
     return (
-      <div className="grid grid-cols-2 gap-4 mt-4">
+      // Added a scrollbar on height of 220px to mimic the behavior of the design
+      <div className="grid grid-cols-2 gap-4 mt-4 overflow-y-auto" style={{ maxHeight: "220px" }}>
         {filteredProducts.map((item) => (
           <div
             key={item.id}
