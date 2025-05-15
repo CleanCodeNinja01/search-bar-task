@@ -1,7 +1,16 @@
+@import "tailwindcss";
+
+/* Remove the default clear (X) button in search inputs */
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* 
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
-
+@tailwind utilities; */
+/* 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -69,4 +78,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
